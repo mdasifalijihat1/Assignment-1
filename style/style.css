@@ -76,8 +76,11 @@ main{
 }
 .banner-hed {
     text-align: center;
+    padding: 10px;
     margin-left: 10%;
     margin-right: 10%;
+    
+    
     
 }
 .banner-text{
