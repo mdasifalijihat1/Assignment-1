@@ -12,7 +12,7 @@ nav{
 }
 nav ul li{
         list-style: none;
-        margin-right: 51px;
+        margin-right: 80px;
 }
 ul li a{
     text-decoration: none;
@@ -20,4 +20,20 @@ ul li a{
 }
 .btn0{
     float: right;
+}
+/* bg design */
+.bg-images{
+    background-image:url(../assets/Hero-bg.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+.bg-text{
+   text-align: center;
+   display: inline-block;
+}
+.banner-pro{
+  width: 300px;
+  position: relative;
 }
