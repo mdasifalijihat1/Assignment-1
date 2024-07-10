@@ -5,6 +5,7 @@ nav{
     background-color: white;
     padding: 10px;
     margin: 10px;
+  
 }
  nav ul{
         display: flex;
@@ -31,9 +32,71 @@ ul li a{
 }
 .bg-text{
    text-align: center;
-   display: inline-block;
+   top: 50%;
+   left: 50%;
 }
 .banner-pro{
-  width: 300px;
-  position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;  
+}
+.btn-con{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* main style */
+.bd-image-2{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main{
+    background-color: rgb(249, 249, 252);
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: top right, bottom right;
+}
+.banner-hed {
+    text-align: center;
+    
+}
+.banner-text{
+    text-align: center;
+}
+.banner-hed2{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 40px;
+    margin: 40px;
+}
+.bd-image-2{
+    /* background-position: top left, bottom right; */
+    width: 250px;
+    float: right;
+    margin-right: 20px;   
+}
+.banner-hed3{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 40px;
+    margin: 40px;
+}
+.bd-image-3{
+    /* background-position: top left, bottom right; */
+    width: 250px;
+    float: left;
+    margin-left: 20px;   
+}
+.bd-image-4{
+    margin-bottom: 40px;
+}
+.banner-hed4{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
 }
